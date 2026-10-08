@@ -1,0 +1,6 @@
+{
+  "name": "QuizEngine API & Studio",
+  "description": "Professional exam authoring studio, interactive test runner, real-time analytics, and REST API documentation simulation layer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

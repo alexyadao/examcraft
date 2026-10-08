@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Desktop Window Glassmorphism & Chrome Styling */
+.desktop-window-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.desktop-window-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Discord-Style Slim Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Dev Indicator Suppression */
+nextjs-portal,
+[data-nextjs-toast],
+[data-nextjs-dev-overlay] {
+  display: none !important;
+}
