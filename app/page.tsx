@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { QuizProvider, useQuiz } from '@/context/QuizContext';
+import { SplashScreen } from '@/components/SplashScreen';
 import { DiscordSidebar } from '@/components/DiscordSidebar';
 import { WindowModalOverlay } from '@/components/WindowModalOverlay';
 import { SlidingThreadPanel } from '@/components/SlidingThreadPanel';
@@ -150,6 +151,9 @@ export default function Page() {
 
         {/* Floating Frosted-Glass Window Modal Overlay */}
         <WindowModalOverlay />
+
+        {/* Cinematic Initial Splash Screen */}
+        <SplashScreen />
       </div>
     </QuizProvider>
   );
