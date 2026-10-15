@@ -47,5 +47,5 @@ A modern full-stack technical assessment platform designed to deliver, evaluate,
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/alexyadao/examcraft-studio-teal.git](https://github.com/alexyadao/examcraft-studio-teal.git)
-   cd examcraft-studio-teal
+   git clone https://github.com/alexyadao/examcraft.git
+cd examcraft
